@@ -1,0 +1,28 @@
+{
+  "name": "runwayml-mcp-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "build/server-index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/server-index.js",
+    "dev": "tsc --watch & node --watch build/server-index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@runwayml/sdk": "^1.4.4",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "lumaai": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.17",
+    "typescript": "^5.8.2",
+    "zod-to-json-schema": "^3.24.5"
+  }
+}
