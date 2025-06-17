@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/wheattoast11-mcp-video-gen-badge.png)](https://mseep.ai/app/wheattoast11-mcp-video-gen)
+
 # RunwayML + Luma AI MCP Server
 
 This MCP server provides tools to interact with the RunwayML and Luma AI APIs for video and image generation tasks.
